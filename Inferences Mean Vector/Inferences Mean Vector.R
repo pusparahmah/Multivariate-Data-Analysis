@@ -29,10 +29,10 @@ Pengeluaran=c(Daging, Telur.Susu, Kacang, Buah, Minyak.Lemak, Bumbu)
 data2=data.frame(variabel,Pengeluaran)
 bartlett.test(Pengeluaran~variabel,data2)
 
-myu <- matrix(c(5636,7345,4370,5837,5158,3291),6,1)
+myu <- matrix(c(48,1526,1331,42),4,1)
 myu
 alpha <- 0.1
-n=length(Daging)
+n=length(Tinggi)
 n
 p=length(data)
 p
